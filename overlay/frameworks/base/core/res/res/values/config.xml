@@ -349,4 +349,7 @@
     <!-- Maximum color temperature, in Kelvin, supported by Night display.
          Setting this to track config_displayWhiteBalanceColorTemperatureDefault (currently 6500K). -->
     <integer name="config_nightDisplayColorTemperatureMax">6500</integer>
+
+    <!-- Whether the new Auto Selection Network UI should be shown -->
+    <bool name="config_enableNewAutoSelectNetworkUI">true</bool>
 </resources>
