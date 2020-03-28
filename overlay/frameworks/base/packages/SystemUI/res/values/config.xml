@@ -39,5 +39,8 @@
     <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
          vibrator is capable of subtle vibrations -->
     <bool name="config_vibrateOnIconAnimation">true</bool>
+
+    <!-- Enable face auth only when swiping security view -->
+    <bool name="config_faceAuthOnlyOnSecurityView">false</bool>
 </resources>
 
