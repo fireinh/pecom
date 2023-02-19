@@ -663,12 +663,12 @@ vendor/lib/libqmi_encdec.so|42f1d3da38170a5a69edaeb459db8425f455c625
 vendor/lib/libqminvapi.so
 vendor/lib/libqmiservices.so|4b8aece94c02b56474b6044e4bdef749a4d91822
 
-# RIL - from LA.QSSI.12.0.r1-05100-qssi.0
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|c8a2ce9a86e542daf835dc0bfa1a63ed7e412d84
+# RIL (system) - from LA.QSSI.13.0.r1-09000-qssi.0
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|9ef9e77f209b7d699d0b37463acfb19faf46d6d4
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
-system_ext/framework/qcrilhook.jar|f251fd8cf621c66a970597954c257d69b6136eda
-system_ext/framework/qti-telephony-common.jar|2ba72ac401a98fe15d23d58867757a2033d51f67
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|47ff9a1712950fc9f877691f2712d8aa7fcf3420
+system_ext/framework/qcrilhook.jar|8d44048c04f4d38a6bf6a279e3bceface10c0dde
+system_ext/framework/qti-telephony-common.jar|041d8a45cdc4b80fa16a47289b9767da833f5b94
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|231862ec524e39c96b8b4575f27060caa36ce36b
 
 # RIL - from PNX - RKQ1.200906.002
 -vendor/app/IWlanService/IWlanService.apk|92168bf713f66a400122e7357f981be106cde39e
