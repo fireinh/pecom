@@ -19,10 +19,6 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     offload.o
 
-# Overlays
-DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay 
-
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 PRODUCT_DEXPREOPT_SPEED_APPS += \
@@ -466,7 +462,17 @@ PRODUCT_BOOT_JARS += \
 
 # Tethering
 PRODUCT_PACKAGES += \
-    TetheringConfigOverlay
+    sdm845ApertureOverlay \
+    sdm845BluetoothOverlay \
+    sdm845CarrierConfigOverlay \
+    sdm845FrameworksOverlay \
+    sdm845SettingsOverlay \
+    sdm845SettingsProviderOverlay \
+    sdm845SimpleDeviceConfigOverlay \
+    sdm845SystemUIOverlay \
+    sdm845TelephonyOverlay \
+    sdm845TetheringConfigOverlay \
+    sdm845WifiOverlay \
 
 # Thermal
 PRODUCT_PACKAGES += \
@@ -518,7 +524,6 @@ PRODUCT_PACKAGES += \
     hostapd \
     libwifi-hal-qcom \
     libwpa_client \
-    WifiOverlay \
     wpa_supplicant \
     wpa_supplicant.conf
 
