@@ -454,6 +454,8 @@ USE_DEX2OAT_DEBUG := false
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
+    hardware/google/pixel \
+    hardware/google/interfaces
 
 # Telephony
 PRODUCT_PACKAGES += \
