@@ -367,13 +367,13 @@ PRODUCT_PACKAGES += \
     
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti \
+    android.hardware.power-service.xiaomi-sdm845-libperfmgr \
     android.hardware.power@1.2 \
     android.hardware.power@1.2.vendor \
     android.hardware.power.stats@1.0-service.xiaomi
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
+    $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Neural Network
 PRODUCT_PACKAGES += \
